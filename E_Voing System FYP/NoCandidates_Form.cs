@@ -71,10 +71,10 @@ namespace WindowsFormsApp1
             }
             else
             {
-                parentWindow.pCand = int.Parse(textBox1.Text);
-                parentWindow.vpCand = int.Parse(textBox2.Text);
-                parentWindow.tCand = int.Parse(textBox3.Text);
-                parentWindow.sCand = int.Parse(textBox4.Text);
+                parentWindow.election.pCand = int.Parse(textBox1.Text);
+                parentWindow.election.vpCand = int.Parse(textBox2.Text);
+                parentWindow.election.tCand = int.Parse(textBox3.Text);
+                parentWindow.election.sCand = int.Parse(textBox4.Text);
                 this.Close();
             }
 

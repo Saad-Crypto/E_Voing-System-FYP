@@ -56,7 +56,6 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "For President 1";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -79,7 +78,6 @@
             this.label3.Size = new System.Drawing.Size(181, 35);
             this.label3.TabIndex = 3;
             this.label3.Text = "Enter CNIC:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox2
             // 
@@ -176,7 +174,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "E Voting System";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Window3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

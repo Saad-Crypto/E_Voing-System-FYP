@@ -53,6 +53,7 @@
     <Compile Include="CandidateNames_Form.Designer.cs">
       <DependentUpon>CandidateNames_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Election.cs" />
     <Compile Include="StartPage_Form.cs">
       <SubType>Form</SubType>
     </Compile>

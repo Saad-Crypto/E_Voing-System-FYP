@@ -29,51 +29,6 @@ namespace WindowsFormsApp1
             int width = Screen.PrimaryScreen.Bounds.Width;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Elec_Name_lb_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Window3_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void folderBrowserDialog1_HelpRequest(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
-        {
-
-        }
-
         private void PicUpload_Btn_Click(object sender, EventArgs e)
         {
             // open file dialog   
@@ -87,11 +42,6 @@ namespace WindowsFormsApp1
                 pic_uploaded = true;
                 pic_Address=open.FileName;
             }
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -122,13 +72,13 @@ namespace WindowsFormsApp1
                 fs.Close();
                 Candidate cand = new Candidate(textBox2.Text, ImageData);
                 if (this.candidate == "President")
-                    parentWindow.pCandidates.Add(cand);
+                    parentWindow.election.pCandidates.Add(cand);
                 else if (this.candidate == "Vice President")
-                    parentWindow.vpCandidates.Add(cand);
+                    parentWindow.election.vpCandidates.Add(cand);
                 else if (this.candidate == "Secretary")
-                    parentWindow.sCandidates.Add(cand);
+                    parentWindow.election.sCandidates.Add(cand);
                 else if (this.candidate == "Treasurer")
-                    parentWindow.tCandidates.Add(cand);
+                    parentWindow.election.tCandidates.Add(cand);
                 this.Close();
             }
         }

@@ -69,7 +69,6 @@
             this.Elec_Name_lb.Size = new System.Drawing.Size(267, 42);
             this.Elec_Name_lb.TabIndex = 1;
             this.Elec_Name_lb.Text = "Election Name: ";
-            this.Elec_Name_lb.Click += new System.EventHandler(this.Elec_Name_lb_Click_1);
             // 
             // enterBtn
             // 
@@ -116,7 +115,6 @@
             this.datePicker.Name = "datePicker";
             this.datePicker.Size = new System.Drawing.Size(325, 30);
             this.datePicker.TabIndex = 8;
-            this.datePicker.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // StartTimePicker
             // 
@@ -130,7 +128,6 @@
             this.StartTimePicker.Size = new System.Drawing.Size(152, 30);
             this.StartTimePicker.TabIndex = 9;
             this.StartTimePicker.Value = new System.DateTime(2022, 6, 10, 8, 0, 0, 0);
-            this.StartTimePicker.ValueChanged += new System.EventHandler(this.StartTimePicker_ValueChanged);
             // 
             // endTimePicker
             // 
@@ -168,7 +165,6 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "Enter the Name*";
             this.label4.Visible = false;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Window1
             // 
@@ -192,7 +188,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "E Voting System";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Window1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
