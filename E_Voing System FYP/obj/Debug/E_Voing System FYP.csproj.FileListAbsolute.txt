@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\E_Voing System FYP.exe.config
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\E_Voing System FYP.exe
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\E_Voing System FYP.pdb
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\E_Voing System FYP.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\E_Voing System FYP.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\E_Voing_System_FYP.Properties.Resources.resources
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\E_Voing System FYP.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\E_Voing System FYP.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\E_Voing System FYP.exe
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\E_Voing System FYP.pdb
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window2.resources
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window1.resources
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window.resources
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window3.resources
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\WindowsFormsApp1.StartWindow.resources
