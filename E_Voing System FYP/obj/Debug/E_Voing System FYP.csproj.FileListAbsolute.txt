@@ -13,3 +13,21 @@ C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing Sys
 C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window.resources
 C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window3.resources
 C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\WindowsFormsApp1.StartWindow.resources
+C:\Books\FYP\f\E_Voing System FYP\bin\Debug\E_Voing System FYP.exe.config
+C:\Books\FYP\f\E_Voing System FYP\bin\Debug\E_Voing System FYP.exe
+C:\Books\FYP\f\E_Voing System FYP\bin\Debug\E_Voing System FYP.pdb
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\E_Voing System FYP.csprojAssemblyReference.cache
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window3.resources
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.StartWindow.resources
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window.resources
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\E_Voing_System_FYP.Properties.Resources.resources
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window2.resources
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window1.resources
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\E_Voing System FYP.csproj.GenerateResource.cache
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\E_Voing System FYP.csproj.CoreCompileInputs.cache
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\E_Voing System FYP.exe
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\E_Voing System FYP.pdb
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.ScheduleElection.resources
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.EditCandidates.resources
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Preview.resources
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.UpdateCandidate.resources

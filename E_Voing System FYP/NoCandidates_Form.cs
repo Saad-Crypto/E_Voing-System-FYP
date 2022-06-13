@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
         Window1 parentWindow;
         public Window2(Window1 window1)
         {
+
             parentWindow = window1;
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
@@ -86,6 +87,11 @@ namespace WindowsFormsApp1
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

@@ -14,6 +14,9 @@ namespace WindowsFormsApp1
 {
     public partial class Window3 : Form
     {
+        private bool f = false;
+        private UpdateCandidate parent_updt;
+        private EditCandidates parent_edit;
         private Window1 parentWindow;
         private bool pic_uploaded = false;
         private String pic_Address;
@@ -28,6 +31,32 @@ namespace WindowsFormsApp1
             int height = Screen.PrimaryScreen.Bounds.Height;
             int width = Screen.PrimaryScreen.Bounds.Width;
         }
+        public Window3(EditCandidates window1, String candidate = "President")
+        {
+            parent_edit = window1;
+            this.candidate = candidate;
+            InitializeComponent();
+            label2.Text = "For " + candidate ;
+            this.WindowState = FormWindowState.Maximized;
+            int height = Screen.PrimaryScreen.Bounds.Height;
+            int width = Screen.PrimaryScreen.Bounds.Width;
+            f = true;
+        }
+
+        public Window3(UpdateCandidate window1, String candidate = "President")
+        {
+            parent_updt = window1;
+            this.candidate = candidate;
+            InitializeComponent();
+            upd_btn.Visible = true;
+            button1.Visible = false;
+            label2.Text = "For " + candidate;
+            this.WindowState = FormWindowState.Maximized;
+            int height = Screen.PrimaryScreen.Bounds.Height;
+            int width = Screen.PrimaryScreen.Bounds.Width;
+        }
+
+
 
         private void PicUpload_Btn_Click(object sender, EventArgs e)
         {
@@ -71,15 +100,31 @@ namespace WindowsFormsApp1
                 br.Close();
                 fs.Close();
                 Candidate cand = new Candidate(textBox2.Text, ImageData);
-                if (this.candidate == "President")
-                    parentWindow.election.pCandidates.Add(cand);
-                else if (this.candidate == "Vice President")
-                    parentWindow.election.vpCandidates.Add(cand);
-                else if (this.candidate == "Secretary")
-                    parentWindow.election.sCandidates.Add(cand);
-                else if (this.candidate == "Treasurer")
-                    parentWindow.election.tCandidates.Add(cand);
-                this.Close();
+                if (f)
+                {
+                    //db add function to add canidate
+                    //if (this.candidate == "President")
+                    //    parentWindow.election.pCandidates.Add(cand);
+                    //else if (this.candidate == "Vice President")
+                    //    parentWindow.election.vpCandidates.Add(cand);
+                    //else if (this.candidate == "Secretary")
+                    //    parentWindow.election.sCandidates.Add(cand);
+                    //else if (this.candidate == "Treasurer")
+                    //    parentWindow.election.tCandidates.Add(cand);
+                    this.Close();
+                }
+                else
+                {
+                    if (this.candidate == "President")
+                        parentWindow.election.pCandidates.Add(cand);
+                    else if (this.candidate == "Vice President")
+                        parentWindow.election.vpCandidates.Add(cand);
+                    else if (this.candidate == "Secretary")
+                        parentWindow.election.sCandidates.Add(cand);
+                    else if (this.candidate == "Treasurer")
+                        parentWindow.election.tCandidates.Add(cand);
+                    this.Close();
+                }
             }
         }
 
@@ -94,5 +139,49 @@ namespace WindowsFormsApp1
                 e.Handled = !char.IsDigit(e.KeyChar) && e.KeyChar != (char)Keys.Back;
 
         }
-    }
+
+        private void upd_btn_Click(object sender, EventArgs e)
+        {
+
+            if (!pic_uploaded)
+            {
+                picErr_lbl.Visible = true;
+            }
+            else
+            {
+                picErr_lbl.Visible = false;
+            }
+            if (textBox2.Text.Length < 13)
+            {
+                cnicErr_lbl.Visible = true;
+            }
+            else
+            {
+                cnicErr_lbl.Visible = false;
+            }
+            if (pic_uploaded && textBox2.Text.Length == 13)
+            {
+                byte[] ImageData;
+                FileStream fs = new FileStream(pic_Address, FileMode.Open, FileAccess.Read);
+                BinaryReader br = new BinaryReader(fs);
+                ImageData = br.ReadBytes((int)fs.Length);
+                br.Close();
+                fs.Close();
+                Candidate cand = new Candidate(textBox2.Text, ImageData);
+            
+                // db update
+                    //if (this.candidate == "President")
+                    //    parentWindow.election.pCandidates.Add(cand);
+                    //else if (this.candidate == "Vice President")
+                    //    parentWindow.election.vpCandidates.Add(cand);
+                    //else if (this.candidate == "Secretary")
+                    //    parentWindow.election.sCandidates.Add(cand);
+                    //else if (this.candidate == "Treasurer")
+                    //    parentWindow.election.tCandidates.Add(cand);
+                    this.Close();
+            }
+
+
+            }
+        }
 }

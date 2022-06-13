@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>E_Voing_System_FYP</RootNamespace>
     <AssemblyName>E_Voing System FYP</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -60,6 +61,36 @@
     <Compile Include="StartPage_Form.Designer.cs">
       <DependentUpon>StartPage_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Schedule_Elections_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule_Elections_Form.Designer.cs">
+      <DependentUpon>Schedule_Elections_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Candidates_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Candidates_Form.Designer.cs">
+      <DependentUpon>Edit_Candidates_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preview_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preview_Form.Designer.cs">
+      <DependentUpon>Preview_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_Candidates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_Candidates.Designer.cs">
+      <DependentUpon>view_Candidates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Candidate_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Candidate_Form.Designer.cs">
+      <DependentUpon>Update_Candidate_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="template_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +116,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StartPage_Form.resx">
       <DependentUpon>StartPage_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule_Elections_Form.resx">
+      <DependentUpon>Schedule_Elections_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Candidates_Form.resx">
+      <DependentUpon>Edit_Candidates_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview_Form.resx">
+      <DependentUpon>Preview_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_Candidates.resx">
+      <DependentUpon>view_Candidates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Candidate_Form.resx">
+      <DependentUpon>Update_Candidate_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="template_Form.resx">
       <DependentUpon>template_Form.cs</DependentUpon>

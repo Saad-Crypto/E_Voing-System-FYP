@@ -14,7 +14,8 @@ namespace WindowsFormsApp1
 {
     public partial class Window1 : Form
     {
-        public Election election;
+        public Election election= new Election();
+        private ScheduleElection se;
         public Window1()
         {
             InitializeComponent();
@@ -24,7 +25,19 @@ namespace WindowsFormsApp1
             int width = Screen.PrimaryScreen.Bounds.Width;
         }
 
-       
+
+        public Window1(ScheduleElection elec)
+        {
+            se = elec;
+            InitializeComponent();
+            update_btn.Visible = true;
+            enter_btn.Visible = false;
+            datePicker.MinDate = DateTime.Now.AddDays(3);
+            this.WindowState = FormWindowState.Maximized;
+            int height = Screen.PrimaryScreen.Bounds.Height;
+            int width = Screen.PrimaryScreen.Bounds.Width;
+        }
+
 
         private void enterBtn_Click(object sender, EventArgs e)
         {
@@ -65,6 +78,34 @@ namespace WindowsFormsApp1
 
 
 
+            }
+        }
+
+        private void welcome_lb_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Window1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void update_btn_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text.Trim() == "")
+            {
+                label4.Visible = true;
+            }
+            else
+            {
+                election.electionName = textBox1.Text;
+                election.date = datePicker.Value.ToString();
+                election.startTime = StartTimePicker.Value.ToString();
+                election.endTime = endTimePicker.Value.ToString();
+
+                // ............update election according to new value............
+                this.Close();
             }
         }
     }

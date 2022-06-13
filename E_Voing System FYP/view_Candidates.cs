@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class StartWindow : Form
+    public partial class ViewCandidates : Form
     {
-        public StartWindow()
+        public ViewCandidates()
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
@@ -20,25 +20,28 @@ namespace WindowsFormsApp1
             int width = Screen.PrimaryScreen.Bounds.Width;
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form form = new Window1();
-            this.Hide();
-            form.ShowDialog();
-            this.Show();
-        }
-
-        private void StartWindow_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            Form form = new ScheduleElection();
-            this.Hide();
-            form.ShowDialog();
-            this.Show();
+
+        }
+
+        private void Elec_Name_lb_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ViewCandidates_Load(object sender, EventArgs e)
+        {
 
         }
     }
