@@ -51,6 +51,7 @@
             // 
             this.elec_end_time.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.elec_end_time.CalendarFont = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elec_end_time.Enabled = false;
             this.elec_end_time.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.elec_end_time.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.elec_end_time.Location = new System.Drawing.Point(729, 327);
@@ -75,6 +76,7 @@
             // 
             this.elec_strt_time.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.elec_strt_time.CalendarFont = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.elec_strt_time.Enabled = false;
             this.elec_strt_time.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.elec_strt_time.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.elec_strt_time.Location = new System.Drawing.Point(359, 327);
@@ -89,6 +91,7 @@
             // 
             this.election_date.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.election_date.CalendarFont = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.election_date.Enabled = false;
             this.election_date.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.election_date.Location = new System.Drawing.Point(546, 210);
             this.election_date.Margin = new System.Windows.Forms.Padding(2);
@@ -129,6 +132,7 @@
             this.view_vp_btn.TabIndex = 21;
             this.view_vp_btn.Text = "View Vice Presidents";
             this.view_vp_btn.UseVisualStyleBackColor = false;
+            this.view_vp_btn.Click += new System.EventHandler(this.view_vp_btn_Click);
             // 
             // button4
             // 
@@ -142,6 +146,7 @@
             this.button4.TabIndex = 24;
             this.button4.Text = "View  Presidents";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // view_secretary_btn
             // 
@@ -155,6 +160,7 @@
             this.view_secretary_btn.TabIndex = 25;
             this.view_secretary_btn.Text = "View Secretary";
             this.view_secretary_btn.UseVisualStyleBackColor = false;
+            this.view_secretary_btn.Click += new System.EventHandler(this.view_secretary_btn_Click);
             // 
             // view_treasurer_btn
             // 
@@ -168,6 +174,7 @@
             this.view_treasurer_btn.TabIndex = 26;
             this.view_treasurer_btn.Text = "View Treasurer";
             this.view_treasurer_btn.UseVisualStyleBackColor = false;
+            this.view_treasurer_btn.Click += new System.EventHandler(this.view_treasurer_btn_Click);
             // 
             // Preview
             // 

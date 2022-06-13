@@ -64,5 +64,37 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form form1 = new ViewCandidates(this,"President");
+            this.Hide();
+            form1.ShowDialog();
+            this.Show();
+        }
+
+        private void view_vp_btn_Click(object sender, EventArgs e)
+        {
+            Form form1 = new ViewCandidates(this, "Vice Presidents");
+            this.Hide();
+            form1.ShowDialog();
+            this.Show();
+        }
+
+        private void view_secretary_btn_Click(object sender, EventArgs e)
+        {
+            Form form1 = new ViewCandidates(this, "Secretary");
+            this.Hide();
+            form1.ShowDialog();
+            this.Show();
+        }
+
+        private void view_treasurer_btn_Click(object sender, EventArgs e)
+        {
+            Form form1 = new ViewCandidates(this, "Treasurer");
+            this.Hide();
+            form1.ShowDialog();
+            this.Show();
+        }
     }
 }

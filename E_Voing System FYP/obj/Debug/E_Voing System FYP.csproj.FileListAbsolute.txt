@@ -31,3 +31,4 @@ C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.ScheduleElection.re
 C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.EditCandidates.resources
 C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Preview.resources
 C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.UpdateCandidate.resources
+C:\Books\FYP\f\E_Voing System FYP\obj\Debug\WindowsFormsApp1.ViewCandidates.resources
