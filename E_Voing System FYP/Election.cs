@@ -21,6 +21,7 @@ namespace E_Voing_System_FYP
         public ArrayList vpCandidates = new ArrayList();
         public ArrayList sCandidates = new ArrayList();
         public ArrayList tCandidates = new ArrayList();
+        public int status = 0;
 
     }
 }

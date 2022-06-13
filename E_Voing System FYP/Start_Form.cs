@@ -14,7 +14,7 @@ namespace WindowsFormsApp1
 {
     public partial class Window1 : Form
     {
-        public Election election;
+        public Election election = new Election();
         public Window1()
         {
             InitializeComponent();

@@ -9,14 +9,21 @@ namespace E_Voing_System_FYP
     public class Candidate
     {
         private String cnic;
-        private byte[] ImageData;
-        public Candidate(String cnic, byte[] image)
+        private byte[] imageData;
+        private String position;
+        public Candidate(String cnic, byte[] image, String pos = "")
         {
-            this.ImageData = image;
+            this.imageData = image;
             this.cnic = cnic;
+            this.position = pos;
         }
 
-        public byte[] getImageData() { return ImageData; }
+        public byte[] getImageData() { return imageData; }
         public String getCNIC() { return cnic; }
+        public void setPostion(String posi)
+        {
+            position = posi;
+        }
+        public String getPosition() { return position; }
     }
 }

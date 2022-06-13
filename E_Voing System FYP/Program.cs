@@ -1,4 +1,6 @@
-﻿using System;
+﻿using E_Voing_System_FYP;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +18,14 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StartWindow());
+            //Application.Run(new StartWindow());
+            DBHandler dbHandler = new DBHandler();
+            ArrayList array = dbHandler.getAllElections();
+            foreach (Election i in array)
+            {
+                Console.WriteLine(i.electionName);
+            }
+            
         }
 
     }

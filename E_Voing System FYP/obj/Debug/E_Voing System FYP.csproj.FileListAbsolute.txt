@@ -13,3 +13,18 @@ C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing Sys
 C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window.resources
 C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\WindowsFormsApp1.Window3.resources
 C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\WindowsFormsApp1.StartWindow.resources
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\MySqlConnector.dll
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\MySqlConnector.xml
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Buffers.xml
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Memory.xml
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\Desktop\E_Voing System FYP\E_Voing System FYP\E_Voing System FYP\obj\Debug\E_Voing System FYP.csproj.CopyComplete

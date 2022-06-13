@@ -72,13 +72,25 @@ namespace WindowsFormsApp1
                 fs.Close();
                 Candidate cand = new Candidate(textBox2.Text, ImageData);
                 if (this.candidate == "President")
+                {
+                    cand.setPostion("p");
                     parentWindow.election.pCandidates.Add(cand);
+                }
                 else if (this.candidate == "Vice President")
+                {
+                    cand.setPostion("vp");
                     parentWindow.election.vpCandidates.Add(cand);
+                }
                 else if (this.candidate == "Secretary")
+                {
+                    cand.setPostion("s");
                     parentWindow.election.sCandidates.Add(cand);
+                }
                 else if (this.candidate == "Treasurer")
+                {
+                    cand.setPostion("t");
                     parentWindow.election.tCandidates.Add(cand);
+                }
                 this.Close();
             }
         }
